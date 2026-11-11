@@ -1,1 +1,256 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O'ZANO MULTISERVICES à Perpignan : petits travaux de plomberie, bricolage, montage de meubles et réparation de téléphones.">
+  <meta name="theme-color" content="#101827">
+  <title>O'ZANO MULTISERVICES | Perpignan</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #202938;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #101827;
+      color: white;
+      padding: 22px 16px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #f0a52b;
+    }
+
+    header p {
+      color: #d5dbe5;
+      margin-top: 5px;
+    }
+
+    nav {
+      background: #192538;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 9px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101827, #263d5c);
+      color: white;
+      text-align: center;
+      padding: 75px 20px;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #e2e8f0;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f0a52b;
+      color: #101827;
+      padding: 13px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    section {
+      padding: 55px 18px;
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 27px;
+      margin-bottom: 30px;
+      color: #101827;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .service {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 14px #0000000d;
+    }
+
+    .service .icon {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    .service h3 {
+      color: #15243a;
+      margin-bottom: 10px;
+    }
+
+    .about {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+    }
+
+    .about p {
+      margin-bottom: 12px;
+    }
+
+    .contact {
+      background: #101827;
+      color: white;
+      text-align: center;
+      border-radius: 12px;
+    }
+
+    .contact .section-title {
+      color: white;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #0b1220;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 22px 12px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 {
+        font-size: 27px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">O'ZANO</div>
+  <h2>MULTISERVICES</h2>
+  <p>Votre partenaire pour les petits travaux</p>
+</header>
+
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#services">Services</a>
+  <a href="#apropos">À propos</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="accueil">
+  <h1>Bienvenue chez O'ZANO MULTISERVICES</h1>
+  <p>Plomberie • Bricolage • Montage de meubles • Dépannage</p>
+  <p>Interventions à domicile à Perpignan et 20 km autour.</p>
+  <a class="btn" href="#contact">Nous contacter</a>
+</div>
+
+<section id="services">
+  <h2 class="section-title">Nos prestations</h2>
+
+  <div class="services">
+
+    <div class="service">
+      <div class="icon">🔧</div>
+      <h3>Petits travaux de plomberie</h3>
+      <p>Robinetterie, joints, siphons et petites fuites.</p>
+    </div>
+
+    <div class="service">
+      <div class="icon">🪑</div>
+      <h3>Montage de meubles</h3>
+      <p>Montage et installation de lits, tables, armoires et meubles.</p>
+    </div>
+
+    <div class="service">
+      <div class="icon">🛠️</div>
+      <h3>Petit bricolage</h3>
+      <p>Fixations, étagères, petits travaux et installations à domicile.</p>
+    </div>
+
+    <div class="service">
+      <div class="icon">📱</div>
+      <h3>Réparation de téléphones</h3>
+      <p>Dépannage et réparation de téléphones selon le modèle et la panne.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="apropos">
+  <div class="about">
+    <h2 class="section-title">Pourquoi choisir O'ZANO ?</h2>
+    <p>✔ Service à domicile</p>
+    <p>✔ Travail sérieux et soigné</p>
+    <p>✔ Disponibilité et écoute</p>
+    <p>✔ Devis adapté à vos besoins</p>
+    <p><strong>Zone d'intervention : Perpignan et 20 km autour.</strong></p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2 class="section-title">Contactez-nous</h2>
+    <p>Un besoin ? Une question ?</p>
+    <p>Contactez O'ZANO MULTISERVICES sur WhatsApp.</p>
+
+    <a class="btn"
+       href="https://wa.me/33600000000?text=Bonjour%20O%27ZANO%20MULTISERVICES"
+       target="_blank">
+       Contacter sur WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 O'ZANO MULTISERVICES</p>
+  <p>Perpignan et 20 km autour</p>
+</footer>
+
+</body>
+</html>
+
